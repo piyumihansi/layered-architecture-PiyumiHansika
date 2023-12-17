@@ -49,6 +49,7 @@ public class PlaceOrderFormController {
     public Label lblTotal;
     private String orderId;
 
+
     public void initialize() throws SQLException, ClassNotFoundException {
 
         tblOrderDetails.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("code"));
